@@ -54,6 +54,10 @@ body {
     clear: both;
 }
 
+.heart-entity{
+    color: red;
+}
+
 /* HEADER */
 
 .logo img {
@@ -68,6 +72,8 @@ nav .list {
 
 .list li {
     display: inline-block;
+    margin-right: 2%;
+    font-weight: 400;
 }
 
 .list li a {
@@ -96,10 +102,6 @@ nav .list {
 
 /* MAIN */
 
-.main-header {
-    margin-bottom: 20px;
-}
-
 /* Container */
 
 .main-container .col {
@@ -124,5 +126,10 @@ nav .list {
     height: 200px;
 }
 
+/* FOOTER */
 
+.text-footer {
+    font-weight: 900;
+    text-align: center;
 
+}

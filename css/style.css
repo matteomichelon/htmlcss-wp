@@ -1,0 +1,53 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+/* COMMON */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    /* test */
+    border: 1px solid black;
+}
+
+.block-margin {
+    margin: 20px 0;
+}
+
+.text-color {
+    color: #b3b3b3;
+}
+
+/* HEADER */
+
+.logo img {
+    width: 100px;
+}
+
+/* List */
+
+nav .list {
+    list-style-type: none;
+}
+
+.list li {
+    display: inline-block;
+}
+
+.list li a {
+    text-transform: uppercase;
+    text-decoration: none;
+}

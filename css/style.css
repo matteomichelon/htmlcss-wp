@@ -19,8 +19,6 @@ body {
 .wrapper {
     width: 80%;
     margin: auto;
-    /* test */
-    border: 1px solid black;
 }
 
 .block-margin {
@@ -48,6 +46,12 @@ body {
     position: absolute;
     left: 0;
     right: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* HEADER */
@@ -80,14 +84,45 @@ nav .list {
     overflow: hidden;
     /* permette all'immagine di non trasbordare 
     dal nostro contenitore */
-    /* test */
-    border: 1px solid red;
 }
 
-.banner .title{
+.banner-title {
     position: absolute;
     bottom: 15%;
     left: 5%;
     width: 60%;
     color: white;
 }
+
+/* MAIN */
+
+.main-header {
+    margin-bottom: 20px;
+}
+
+/* Container */
+
+.main-container .col {
+    float: left;
+}
+
+.col-left {
+    width: 20%;
+}
+
+.col-right {
+    width: 20%;
+}
+
+.col-center {
+    width: 58%;
+    margin: 0 1%;
+}
+
+.col-img {
+    position: relative;
+    height: 200px;
+}
+
+
+

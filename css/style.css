@@ -46,6 +46,8 @@ body {
     position: absolute;
     left: 0;
     right: 0;
+    /* left: 0; right: 0;  Ricordasi di inserirli perchè
+    ogni browser gestisce l'inizio dove vuole*/
 }
 
 .clearfix::after {
@@ -61,7 +63,11 @@ body {
 /* HEADER */
 
 .logo img {
-    width: 100px;
+    /* width: auto; prendi la larghezza automatica rispetto 
+    all'altezza che ti lascio per evitare 
+    che l'immagine si sforma */
+    width: auto;
+    height: 50px;
 }
 
 /* List */
@@ -102,17 +108,18 @@ nav .list {
 
 /* MAIN */
 
+main h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
 /* Container */
 
 .main-container .col {
     float: left;
 }
 
-.col-left {
-    width: 20%;
-}
-
-.col-right {
+.col-left, .col-right {
     width: 20%;
 }
 
